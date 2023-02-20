@@ -1,0 +1,96 @@
+.mat-grid-list {
+    vertical-align: middle;
+}
+.header {
+    margin-top: 60px;
+    background-color: #1976d2;
+    color: white;
+}
+
+.header-label {
+    text-align: center;
+}
+
+.header-label h3{
+    color: #ebebeb;
+    font-size: 12px;
+    
+}
+
+.business,
+.process {
+
+    text-align: center;
+    padding: 20px;;
+}
+
+.business p,
+.process p {
+    color: #333;
+}
+
+.choose,
+.statistics {
+    padding: 20px;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #1976d2;
+}
+
+.choose h1,
+.statistics h1 {
+    margin: 0;
+    color: #1976d2;
+
+}
+.choose p,
+.statistics p {
+    margin: 0;
+    color: #333;
+}
+
+.header-card {
+    width: 70%;
+}
+
+mat-card:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  }
+
+.header-card h1 {
+    color: #1976d2;
+}
+
+.header-card p {
+    color: #333;
+}
+
+
+mat-card {
+    
+    height: 95%;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    color: black;
+    width: 85%;
+    padding: 10px;
+}
+
+mat-card img {
+    width:70px; 
+}
+
+.statistics mat-card {
+    border-radius: 50%;
+    background-color: #1976d2;
+    color: white;
+}
+
+.statistics mat-card p{
+   color: #ebebeb;
+}
